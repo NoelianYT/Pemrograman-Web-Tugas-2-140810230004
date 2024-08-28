@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+<body class="body-form">
+    <div class="container">
+        <div class="form-container">
+            <form id="loginForm" action="" method="POST">
+                <h1>Register</h1>
+                <br>NPM: <input type="text" placeholder="Nomor Pokok Mahasiswa">
+                <br>Nama Lengkap: <input type="text" placeholder="Nama Lengkap">
+                <br>Alamat: <input type="text" placeholder="Alamat">
+                <br>Jenis Kelamin:
+                <input type="radio" id="option1" name="gender" value="male">
+                    <label for="option1">Laki - laki</label>
+                <input type="radio" id="option2" name="gender" value="female">
+                    <label for="option2">Perempuan</label>
+                <br>Angkatan:
+                <select name="angkatan">
+                    <option>-</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                    <option>2024</option>
+                </select>
+                <br>Kelas:
+                <select name="kelas">
+                    <option>-</option>
+                    <option>A</option>
+                    <option>B</option>
+                </select>
+                <br>Hobi:
+                <textarea type="text" placeholder="Hobi" rows="12"></textarea>
+                <button type="submit" name="submit" class="large">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
