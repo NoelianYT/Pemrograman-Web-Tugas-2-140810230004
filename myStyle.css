@@ -1,3 +1,4 @@
+/* General styles */
 * {
     margin: 0;
     padding: 0;
@@ -5,8 +6,85 @@
     font-family: Arial, sans-serif;
 }
 
+/* Body styling */
+body {
+    background-color: #ffffe0; /* Light yellow background */
+    color: #333;
+    line-height: 1.6;
+    margin: 30px 30px 30px 40px; /* Top, Right, Bottom, Left */
+    padding: 20px;
+}
+
+/* Header styling */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    color: blue; /* Changed to blue */
+}
+
+.profile-img {
+    height: 200px;
+    width: 160px;
+}
+
+/* Section title styling */
+.section-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: blue; /* Changed to blue */
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+/* Profile list styling */
+.profile-list {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+/* Table styling */
+.hobbies-table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.hobbies-table td {
+    padding: 10px;
+}
+
+.hobby-img {
+    height: 200px;
+    width: 300px;
+}
+
+/* Social media styling */
+.social-media {
+    margin-top: 10px;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form and button styling */
 .body-form {
-    background-color:rgb(241, 241, 241);
+    background-color: rgb(241, 241, 241);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,11 +111,6 @@ form {
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-h1 {
-    font-weight: bold;
-    margin-bottom: 20px;
 }
 
 input[type="text"],
@@ -71,13 +144,4 @@ button:focus {
 
 p {
     margin: 15px 0;
-}
-
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }

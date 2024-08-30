@@ -1,42 +1,72 @@
 <!DOCTYPE html>
+<html>
 <head>
-    <title>Form Pendaftaran</title>
+    <title>Biodata | Francisco Gilbert Sondakh</title>
     <link rel="stylesheet" href="myStyle.css">
 </head>
-<body class="body-form">
-    <div class="container">
-        <div class="form-container">
-            <form id="loginForm" action="" method="POST">
-                <h1>Register</h1>
-                <br>NPM: <input type="text" placeholder="Nomor Pokok Mahasiswa">
-                <br>Nama Lengkap: <input type="text" placeholder="Nama Lengkap">
-                <br>Alamat: <input type="text" placeholder="Alamat">
-                <br>Jenis Kelamin:
-                <input type="radio" id="option1" name="gender" value="male">
-                    <label for="option1">Laki - laki</label>
-                <input type="radio" id="option2" name="gender" value="female">
-                    <label for="option2">Perempuan</label>
-                <br>Angkatan:
-                <select name="angkatan">
-                    <option>-</option>
-                    <option>2020</option>
-                    <option>2021</option>
-                    <option>2022</option>
-                    <option>2023</option>
-                    <option>2024</option>
-                </select>
-                <br>Kelas:
-                <select name="kelas">
-                    <option>-</option>
-                    <option>A</option>
-                    <option>B</option>
-                </select>
-                <br>Hobi:
-                <textarea type="text" placeholder="Hobi" rows="12"></textarea>
-                <button type="submit" name="submit" class="large">Submit</button>
-            </form>
-        </div>
+<body>
+    <header class="header">
+        <h1>BIODATA</h1>
+        <img src="Francisco_04.jpg" alt="Profile Picture" class="profile-img">
+    </header>
+
+    <h2 class="section-title">Profil</h2>
+    <ul class="profile-list">
+        <li>NPM     : 140810230004</li>
+        <li>Nama    : Francisco Gilbert Sondakh</li>
+        <li>Alamat  : Jl. Raya Jatinangor No.150, Cikeruh, Kec. Jatinangor, Kabupaten Sumedang, Jawa Barat 45363 lt.3/320</li>
+    </ul>
+
+    <h2 class="section-title">Hobi</h2>
+    <table class="hobbies-table">
+        <tr>
+            <td>
+                <ul>
+                    <li>Bermain Games</li>
+                    <img src="gaming.jpg" alt="Gaming" class="hobby-img">
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Menangkap Gambar dan Video</li>
+                    <img src="foto.jpg" alt="Photography" class="hobby-img">
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>Baca Buku</li>
+                    <img src="buku.jpg" alt="Reading" class="hobby-img">
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Membuat Animasi</li>
+                    <video width="350" controls>
+                        <source src="video.mp4" type="video/mp4">
+                    </video>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>Ikut Event</li>
+                    <img src="event.jpg" alt="Event" class="hobby-img">
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <h2 class="section-title">Sosial Media</h2>
+    <div class="social-media">
+        <img src="wa.jpg" alt="WhatsApp" class="social-icon">
+        <a href="https://wa.me/6285774325611">WhatsApp</a>
+        <img src="ig.jpg" alt="Instagram" class="social-icon">
+        <a href="https://www.instagram.com/ineeduyk_?igsh=MXJtdG93NTZxNDg2dw==">Instagram</a>
+        <img src="yt.jpg" alt="YouTube" class="social-icon">
+        <a href="https://youtube.com/@noelianyt5802?si=jeQKg_cm9iGCkZGf">YouTube</a>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
