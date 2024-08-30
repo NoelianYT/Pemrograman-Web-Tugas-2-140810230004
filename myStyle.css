@@ -27,8 +27,7 @@ body {
 }
 
 .left-column {
-    background-color: #007bff;
-    color: white;
+    color: rgb(40, 37, 244);
     padding: 15px;
     font-weight: bold;
     width: 200px;
